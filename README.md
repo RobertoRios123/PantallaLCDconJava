@@ -1,12 +1,17 @@
 # PantallaLCDconJava
 
 INSTITUTO TECNOLÓGICO DE LEÓN
+
 PROYECTO DE MENSAJE EN LCD CON PROGRAMACIÓN EN JAVA.
-ALUMNOS:
+
+	ALUMNOS:
+
 Roberto Ismael Ramírez Rios.
 Paola Castillo Irene.
 Angely Ramírez Martínez.
+
 	PROFESOR:
+	
 ING. Levy Rojas Carlos Rafael.
 
 Fecha de Entrega: 25-oct-2018.
