@@ -1,26 +1,26 @@
 # PantallaLCDconJava
 
-INSTITUTO TECNOLÓGICO DE LEÓN
+# INSTITUTO TECNOLÓGICO DE LEÓN
 
-PROYECTO DE MENSAJE EN LCD CON PROGRAMACIÓN EN JAVA.
+# PROYECTO DE MENSAJE EN LCD CON PROGRAMACIÓN EN JAVA.
 
-	ALUMNOS:
+	# ALUMNOS:
 
 Roberto Ismael Ramírez Rios.
 Paola Castillo Irene.
 
-	PROFESOR:
+	# PROFESOR:
 	
 ING. Levy Rojas Carlos Rafael.
 
 Fecha de Entrega: 25-oct-2018.
 
-	INTRODUCCIÓN
+	# INTRODUCCIÓN
 Este proyecto muestra mensajes en una pantalla LCD desde una ventana en java que cualquier usuario puede escribir dentro de la pantalla que hemos creado en este lenguaje de java. Los mensajes, como se puede observar en las imágenes, obviamente son mensajes cortos, esto con la intención de que nuestra pantalla LCD no tenga problemas al momento de mostrarlos.
 Las ventanas hechas en java serán ejecutadas únicamente en una computadora u ordenador, ya que hasta el momento solamente hemos creado ese tipo de interfaces, aunque se prevé crearlas dentro del ambiente Android para que puedas escribir mensajes desde tu celular.
 Espero este proyecto cumpla con las expectativas de la materia.
 
-	DESARROLLO
+	# DESARROLLO
 CÓDIGO.
 -	Arduino -
 #include <LiquidCrystal.h>     //librería a utilizar para la pantalla lcd
@@ -82,8 +82,6 @@ C = (5.0 * analogRead(PIN_SENSOR) * 100.0)/ 1024;       //operación para determ
    lcd.setCursor(2,0);                    //nos posicionamos en el 2,0
    lcd.print(C);                          //se imprime la temperatura
    temp = C;                              //guardamos C en temp
-  //
-  //
 
 
 
@@ -125,13 +123,13 @@ if (caracteres>16){                                      //condición que si es 
 }
 else                                                     //de lo contrario realiza lo siguiente
 {
-//
+
 if (Mensaje!=""){                                        //limpia e imprime
     t = time;                                            
     lcd.clear();
     lcd.print(Mensaje); 
   } 
- //
+	
 }
 }
 delay(10000);                                           //espera un tiempo(10 segundos)
@@ -444,6 +442,7 @@ break;
   }
   return salida;            //regresa la salida
 }
+
 
 -	Vista_mensaje2 –
 package mensaje;
@@ -1126,7 +1125,7 @@ public class main {
 
 
 
-	CONCLUSIÓN
+	# CONCLUSIÓN
 Tuvimos bastantes errores al momento de codificar el programa, incluso se nos hizo muy difícil la parte de conectar el Arduino con java. Tuvimos que investigar todos esos temas de conexión para poder terminar el proyecto.
 Cuando logramos corregir la mayoría de los errores se nos presentaron algunos otros más como lo que fue la conectividad de los mensajes escritos con la reproducción de los mismos en la pantalla LCD. Sin embargo, después de tanta prueba y error logramos finalizar de una manera correcta nuestro programa.
 Aprendimos muchas cosas como fue la conexión entre java y Arduino, la parte grafica de enviar mensajes desde java a la pantalla LCD, pero sobre todo aprendimos a corregir de forma autónoma los errores que se nos mostraban al momento de codificar (como se mencionó anteriormente).
